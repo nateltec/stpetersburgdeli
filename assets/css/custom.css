@@ -1,0 +1,17 @@
+.widget-locations-carousel .locations-item .item-desc .fa-map-marker {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.widget-locations-carousel .locations-item .item-desc .fa-map-marker:before {
+    content: "\f041";
+    letter-spacing: 5px;
+    font-size: 28px;
+    color: #ff4e4e;
+}
